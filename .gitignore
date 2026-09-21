@@ -34,3 +34,6 @@ build/
 
 ### Material interno para la exposición (no forma parte de la entrega) ###
 material-exposicion/
+
+### Fuente local del diagrama ###
+*.puml

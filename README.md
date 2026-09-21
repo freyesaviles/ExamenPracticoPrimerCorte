@@ -26,8 +26,6 @@ La solución centraliza las evaluaciones del Test de Weill y permite que un psic
 
 ![Diagrama de arquitectura del Test de Weill](docs/diagrama-arquitectura-weill.png)
 
-El código fuente editable del diagrama está disponible en [docs/diagrama-arquitectura-weill.puml](docs/diagrama-arquitectura-weill.puml).
-
 ## Arquitectura propuesta
 
 | Componente o capa | Responsabilidad |
