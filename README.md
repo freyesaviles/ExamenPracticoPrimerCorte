@@ -14,15 +14,11 @@ Propuesta de arquitectura para transformar el **Sistema del Test de Inteligencia
 
 ## Proyecto retomado
 
-El Sistema del Test de Inteligencia de Weill permite administrar los resultados obtenidos por los participantes. Cada resultado contiene el nombre y correo del participante, edad, fecha de aplicación, puntuación, nivel obtenido y estado de finalización.
+El proyecto retomado está basado en el **Test de Inteligencia de Weill**, una prueba psicométrica no verbal que busca valorar la inteligencia general mediante ejercicios visuales de dificultad progresiva. El participante debe observar figuras, identificar patrones y resolver relaciones como series, analogías y problemas espaciales. Al depender principalmente del razonamiento visual, permite evaluar capacidades de observación, análisis y resolución de problemas con una menor influencia del dominio del lenguaje.
+
+El sistema desarrollado para este test permite administrar los resultados obtenidos por los participantes. Cada resultado contiene el nombre y correo del participante, edad, fecha de aplicación, puntuación, nivel obtenido y estado de finalización. El sistema apoya la gestión de las evaluaciones y conserva digitalmente sus resultados de acuerdo con el baremo correspondiente, pero no sustituye la aplicación profesional ni la interpretación psicológica del test.
 
 La arquitectura propuesta toma como referencia las funcionalidades CRUD del módulo Weill desarrollado anteriormente en `Taller2_ServiciosWeb`. A diferencia de ese prototipo, que almacenaba los registros temporalmente en memoria, la nueva solución propone persistencia permanente en PostgreSQL.
-
-### ¿En qué consiste el Test de Inteligencia de Weill?
-
-El Test de Inteligencia de Weill es una prueba psicométrica no verbal que busca valorar la inteligencia general mediante ejercicios visuales de dificultad progresiva. El participante debe observar figuras, identificar patrones y resolver relaciones como series, analogías y problemas espaciales. Al depender principalmente del razonamiento visual y no de respuestas verbales extensas, permite evaluar capacidades de observación, análisis y resolución de problemas con una menor influencia del dominio del lenguaje.
-
-El sistema propuesto no sustituye la aplicación profesional ni la interpretación psicológica del test. Su función es apoyar la gestión de las evaluaciones y conservar digitalmente la puntuación y el nivel obtenidos de acuerdo con el baremo correspondiente.
 
 ## Problema que resuelve
 
