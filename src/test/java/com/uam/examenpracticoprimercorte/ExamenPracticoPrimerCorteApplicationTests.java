@@ -1,0 +1,13 @@
+package com.uam.examenpracticoprimercorte;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ExamenPracticoPrimerCorteApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
