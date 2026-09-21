@@ -18,6 +18,12 @@ El Sistema del Test de Inteligencia de Weill permite administrar los resultados 
 
 La arquitectura propuesta toma como referencia las funcionalidades CRUD del módulo Weill desarrollado anteriormente en `Taller2_ServiciosWeb`. A diferencia de ese prototipo, que almacenaba los registros temporalmente en memoria, la nueva solución propone persistencia permanente en PostgreSQL.
 
+### ¿En qué consiste el Test de Inteligencia de Weill?
+
+El Test de Inteligencia de Weill es una prueba psicométrica no verbal que busca valorar la inteligencia general mediante ejercicios visuales de dificultad progresiva. El participante debe observar figuras, identificar patrones y resolver relaciones como series, analogías y problemas espaciales. Al depender principalmente del razonamiento visual y no de respuestas verbales extensas, permite evaluar capacidades de observación, análisis y resolución de problemas con una menor influencia del dominio del lenguaje.
+
+El sistema propuesto no sustituye la aplicación profesional ni la interpretación psicológica del test. Su función es apoyar la gestión de las evaluaciones y conservar digitalmente la puntuación y el nivel obtenidos de acuerdo con el baremo correspondiente.
+
 ## Problema que resuelve
 
 La solución centraliza las evaluaciones del Test de Weill y permite que un psicólogo o evaluador pueda registrarlas, consultarlas, corregirlas y eliminarlas desde una aplicación web. La API actúa como intermediaria entre el cliente y la base de datos para aplicar validaciones y reglas de negocio de manera controlada.
